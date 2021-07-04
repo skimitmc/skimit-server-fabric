@@ -1,0 +1,41 @@
+{
+  "owner": {
+    "includes": ["admin"],
+    "overrides": {
+      "commands": {
+        "data": "allow"
+      }
+    }
+  },
+  "admin": {
+    "includes": ["everyone"],
+    "overrides": {
+      "commands": {
+        "bluemap": "allow",
+        "carpet": "allow",
+        "stop": "allow",
+        "kick": "allow",
+        "function": "allow",
+        "reload": "allow"
+      }
+    }
+  },
+  "spectator": {
+    "overrides": {
+      "commands": {
+        "gamemode (spectator|survival)": "allow"
+      }
+    }
+  },
+  "everyone": {
+    "overrides": {
+      "commands": {
+        "skin": "allow",
+        "help": "allow",
+        "tick (entities|health|rate)": "allow",
+        "player": "deny",
+        "tagplayer": "allow"
+      }
+    }
+  }
+}
