@@ -1,0 +1,58 @@
+{
+    "criteria": {
+        "right_click_tools": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "golden_axe",
+                        "golden_hoe",
+                        "golden_shovel",
+                        "wooden_axe",
+                        "wooden_hoe",
+                        "wooden_shovel",
+                        "diamond_axe",
+                        "diamond_hoe",
+                        "diamond_shovel",
+                        "iron_axe",
+                        "iron_hoe",
+                        "iron_shovel",
+                        "stone_axe",
+                        "stone_hoe",
+                        "stone_shovel",
+                        "netherite_axe",
+                        "netherite_hoe",
+                        "netherite_shovel"
+                    ]
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "dirt_path",
+                            "farmland",
+                            "oak_log",
+                            "stripped_birch_log",
+                            "stripped_acacia_log",
+                            "stripped_jungle_log",
+                            "stripped_spruce_log",
+                            "stripped_dark_oak_log",
+                            "stripped_warped_stem",
+                            "stripped_crimson_stem",
+                            "stripped_oak_wood",
+                            "stripped_birch_wood",
+                            "stripped_acacia_wood",
+                            "stripped_jungle_wood",
+                            "stripped_spruce_wood",
+                            "stripped_dark_oak_wood",
+                            "stripped_warped_hyphae",
+                            "stripped_crimson_hyphae"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fz:scoreboards/digcounter/toolsfix"
+    }
+}

@@ -1,0 +1,42 @@
+# EULA
+eula.txt
+# Fabric安装文件
+.fabric-installer
+fabric-installer-*.jar
+# mixin输出
+.mixin.out
+# 可以自动生成的文件
+.fabric
+bluemap
+config/luckperms/translations
+config/carpettisaddition
+config/lithium.*
+config/bluemap/resources
+config/bluemap/missing-configs
+config/bluemap/core.conf
+# 不用的MOD
+mods/不用的
+# 日志和崩溃报告
+logs
+crash-reports
+# Bluemap网页文件
+bluemap/web
+# 存档
+world/advancements
+world/data
+world/DIM*
+world/entities
+world/playerdata
+world/poi
+world/region
+world/stats
+world/level.*
+world/session.lock
+world/uid.dat
+# 包含密钥的文件
+config/FabricProxy.toml
+config/fabric-forwarding.json
+# 暂时用不到的
+*luckperms
+*worldedit
+# 其他
