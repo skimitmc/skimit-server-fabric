@@ -14,6 +14,11 @@ config/lithium.*
 config/bluemap/resources
 config/bluemap/missing-configs
 config/bluemap/core.conf
+config/c2me-bstats.json
+config/skinrestorer
+# 保持默认的设置
+config/TabTPS/display-configs
+config/TabTPS/themes
 # 不用的MOD
 mods/不用的
 # 日志和崩溃报告
@@ -34,9 +39,9 @@ world/level.*
 world/session.lock
 world/uid.dat
 # 包含密钥的文件
-config/FabricProxy.toml
-config/fabric-forwarding.json
+config/FabricProxy-Lite.toml
 # 暂时用不到的
 *luckperms
-*worldedit
+config/cardboard.yml
 # 其他
+*.7z

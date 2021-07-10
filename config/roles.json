@@ -16,7 +16,8 @@
         "stop": "allow",
         "kick": "allow",
         "function": "allow",
-        "reload": "allow"
+        "reload": "allow",
+        "pingall": "allow"
       }
     }
   },
@@ -34,7 +35,13 @@
         "help": "allow",
         "tick (entities|health|rate)": "allow",
         "player": "deny",
-        "tagplayer": "allow"
+        "tagplayer": "allow",
+        "tickinfo": "allow",
+        "mspt": "allow",
+        "memory": "allow",
+        "mem": "allow",
+        "ram": "allow",
+        "ping": "allow"
       }
     }
   }
