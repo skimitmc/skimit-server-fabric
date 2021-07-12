@@ -41,7 +41,8 @@
         "memory": "allow",
         "mem": "allow",
         "ram": "allow",
-        "ping": "allow"
+        "ping": "allow",
+        "backup (list|start)": "allow"
       }
     }
   }

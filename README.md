@@ -3,7 +3,7 @@
 [skimit](https://skimit.cn)服务器使用的fabric服务端
 
 ## 版本
-- 服务端版本: 1.17.1.0
+- 服务端版本: 1.17.1.1
 - [Minecraft](https://www.minecraft.net)版本: 1.17.1
 - [Fabric](https://fabricmc.net) Loader版本: 0.11.6
 

@@ -16,6 +16,8 @@ config/bluemap/missing-configs
 config/bluemap/core.conf
 config/c2me-bstats.json
 config/skinrestorer
+config/TabTPS/userdata
+lib
 # 保持默认的设置
 config/TabTPS/display-configs
 config/TabTPS/themes

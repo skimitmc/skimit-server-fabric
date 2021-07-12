@@ -44,7 +44,9 @@
         "memory": "allow",
         "mem": "allow",
         "ram": "allow",
-        "ping": "allow"
+        "ping": "allow",
+        "gamemode": "allow",
+        "kill": "allow"
       }
     }
   }
