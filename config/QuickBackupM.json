@@ -1,0 +1,46 @@
+{
+    "size_display": true,
+    "turn_off_auto_save": true,
+    "ignore_session_lock": true,
+    "backup_path": "./qb_multi",
+    "server_path": "./server",
+    "overwrite_backup_folder": "overwrite",
+    "world_names": [
+        "world"
+    ],
+    "minimum_permission_level": {
+        "make": 1,
+        "back": 2,
+        "del": 2,
+        "confirm": 1,
+        "abort": 1,
+        "reload": 2,
+        "list": 0
+    },
+    "slots": [
+        {
+            "delete_protection": 0
+        },
+        {
+            "delete_protection": 0
+        },
+        {
+            "delete_protection": 0
+        },
+        {
+            "delete_protection": 0
+        },
+        {
+            "delete_protection": 0
+        },
+        {
+            "delete_protection": 10800
+        },
+        {
+            "delete_protection": 86400
+        },
+        {
+            "delete_protection": 604800
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "eula": false,
+    "day_text": "今天是§b服务器§r在线的第 §e$day§r 天。",
+    "random_text": [
+        "随机字符串1",
+        "随机字符串2"
+    ],
+    "random_text_format": "[§b随机字符串§r] $random",
+    "hitokoto_type": "a",
+    "hitokoto_text": "[§b一言§r] $hitokoto",
+    "motd": "§e§l$player§r, 欢迎回到§b服务器§r!",
+    "bungee_list": {
+        "$子服1": "server1",
+        "子服2": "server2"
+    },
+    "display_list": [
+        "motd",
+        "day",
+        "\n",
+        "random_text",
+        "hitokoto",
+        "\n",
+        "bungee_list"
+    ],
+    "permission": {
+        "!!motd": 3,
+        "!!server": 0
+    }
+}

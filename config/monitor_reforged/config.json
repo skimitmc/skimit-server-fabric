@@ -1,0 +1,17 @@
+{
+    "interval": 15,
+    "permissions": {
+        "add": 3,
+        "del": 3,
+        "list": 1,
+        "range": 3,
+        "reload": 3
+    },
+    "point": {
+        "radius": 200,
+        "contain_y": false
+    },
+    "range": {
+        "contain_y": false
+    }
+}

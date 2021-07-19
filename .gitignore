@@ -1,49 +1,52 @@
 # EULA
-eula.txt
+server/eula.txt
 # Fabric安装文件
-.fabric-installer
-fabric-installer-*.jar
+server/.fabric-installer
+server/fabric-installer-*.jar
 # mixin输出
-.mixin.out
+server/.mixin.out
 # 可以自动生成的文件
-.fabric
-bluemap
-config/luckperms/translations
-config/carpettisaddition
-config/lithium.*
-config/bluemap/resources
-config/bluemap/missing-configs
-config/bluemap/core.conf
-config/c2me-bstats.json
-config/skinrestorer
-config/TabTPS/userdata
-lib
+server/.fabric
+server/bluemap
+server/config/luckperms/translations
+server/config/carpettisaddition
+server/config/lithium.*
+server/config/bluemap/resources
+server/config/bluemap/missing-configs
+server/config/bluemap/core.conf
+server/config/c2me-bstats.json
+server/config/skinrestorer
+server/config/TabTPS/userdata
+server/lib
 # 保持默认的设置
-config/TabTPS/display-configs
-config/TabTPS/themes
+server/config/TabTPS/display-configs
+server/config/TabTPS/themes
+server/ban*
+server/ops.json
 # 不用的MOD
-mods/不用的
+server/mods/不用的
 # 日志和崩溃报告
 logs
-crash-reports
+server/logs
+server/crash-reports
 # Bluemap网页文件
-bluemap/web
+server/bluemap/web
 # 存档
-world/advancements
-world/data
-world/DIM*
-world/entities
-world/playerdata
-world/poi
-world/region
-world/stats
-world/level.*
-world/session.lock
-world/uid.dat
+server/world/advancements
+server/world/data
+server/world/DIM*
+server/world/entities
+server/world/playerdata
+server/world/poi
+server/world/region
+server/world/stats
+server/world/level.*
+server/world/session.lock
+server/world/uid.dat
 # 包含密钥的文件
-config/FabricProxy-Lite.toml
+server/config/FabricProxy-Lite.toml
 # 暂时用不到的
 *luckperms
-config/cardboard.yml
+server/config/cardboard.yml
 # 其他
 *.7z
