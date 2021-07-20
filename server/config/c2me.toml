@@ -1,8 +1,6 @@
 
 # Configuration for async io system
 [asyncIO]
-	# (Default: 2) unused
-	ioWorkerParallelism = 4
 	# (Default: 2) IO worker executor parallelism
 	serializerParallelism = 2
 	# (Default: true) Whether to enable this feature
@@ -14,7 +12,7 @@
 	# (may cause incompatibility with other mods)
 	allowThreadedFeatures = false
 	# (Default: 2) World generation worker executor parallelism
-	parallelism = 4
+	parallelism = 2
 	# (Default: false) Whether to allow reducing lock radius (faster but UNSAFE) (YOU HAVE BEEN WARNED) 
 	# (may cause incompatibility with other mods)
 	reduceLockRadius = false

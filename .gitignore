@@ -8,6 +8,17 @@ server/.mixin.out
 # 可以自动生成的文件
 server/.fabric
 server/bluemap
+server/dynmap/colorschemes
+server/dynmap/export
+server/dynmap/renderdata
+server/dynmap/templates
+server/dynmap/texturepacks
+server/dynmap/web
+server/dynmap/versions.txt
+server/dynmap/ids-by-ip.txt
+server/dynmap/permissions.yml.example
+server/dynmap/custom*
+server/dynmap/world*
 server/config/luckperms/translations
 server/config/carpettisaddition
 server/config/lithium.*

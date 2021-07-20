@@ -33,7 +33,6 @@
       "commands": {
         "skin": "allow",
         "help": "allow",
-        "tick (entities|health|rate)": "allow",
         "tp": "allow",
         "setblock": "allow",
         "fill": "allow",

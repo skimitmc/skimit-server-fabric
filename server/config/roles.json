@@ -17,7 +17,9 @@
         "kick": "allow",
         "function": "allow",
         "reload": "allow",
-        "pingall": "allow"
+        "pingall": "allow",
+        "tick (freeze|step|warp|superHot)": "allow"
+
       }
     }
   },
